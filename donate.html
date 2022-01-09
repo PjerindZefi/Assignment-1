@@ -1,0 +1,98 @@
+<!-- Student Pjerind Zefi -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <link rel="stylesheet" href="donate.css">
+    <title>Help Haiti</title>
+</head>
+<body>
+    
+<script>
+$(document).ready(function(){
+
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+</script>
+    
+<header id="header">
+    <img src="/img/img1.jpg" alt="logo" id="header-img">
+  
+  <nav id="nav-bar">
+    <ul> 
+      <li><a href="#about-us" class="nav-link">About Us</a></li>
+      <li><a href="#photos" class="nav-link">Photo Gallery</a></li>
+      <li><a href="#contact-us" class="nav-link">Subscribe</a></li>
+  </nav>
+</header>
+  
+  <main>
+      <section id="about-us">
+        <h1>DONATE FOR HAITI</h1>
+        <h2>&</h2>
+        <h2> Save Money On Your Taxes </h2>
+        <h3>What We DO</h3>
+        <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt autem laboriosam incidunt ullam obcaecati officiis, fuga, facilis mollitia perferendis beatae asperiores ipsum sapiente ut, ab itaque unde? Exercitationem, odio rem.</P>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae consequuntur dolorem ab blanditiis iusto quod aut magni exercitationem modi excepturi at, non aspernatur sunt, aperiam delectus labore voluptates culpa saepe!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aliquam explicabo aut nostrum inventore? Modi accusantium natus, deserunt eum harum perspiciatis dolores rem architecto qui temporibus exercitationem quidem! Repudiandae, explicabo.</p>
+      </section>
+    
+    
+    <div id="photos">
+      <h1> Photo Gallery </h1>
+      <div id="photo-gallery">
+        <img src="https://orderofmaltarelief.org/wp-content/uploads/2020/01/Haiti_Earthquake_destruction_2010-scaled.jpg">
+        <img src="https://i0.wp.com/saynigeria.com/wp-content/uploads/2018/10/haiti_earthquake.jpg?fit=3840%2C2160&ssl=1">
+        <img src="https://www.unicefusa.org/sites/default/files/styles/standard_layout_banner/public/field-images/story-banner/2020/UNI78169.jpg.Banner.jpg?itok=FqMp4jB7">
+        <img src="https://www.gannett-cdn.com/presto/2018/10/07/USAT/e4803f45-27e2-4899-a181-1da43e9c5183-01.JPG?crop=5759,3239,x0,y89&width=3200&height=1680&fit=bounds">
+        <img src="https://www.cordaid.org/en/wp-content/uploads/sites/11/2016/03/Haiti_earthquake.jpg">
+        <img src="https://media.msf.org/AssetLink/ah00361tbud2nesllk17hns32ljtl712.jpg">
+        <img src="https://www.rescue-uk.org/sites/default/files/styles/well_width_breakpoints_theme_rescue_small_2x/public/image/1572/e-image/1.jpg?itok=2m35axKy&timestamp=1465845422">
+        <img src="https://www.commondreams.org/sites/default/files/views-article/haittiii_0.jpg">   
+       </div>
+    </div>
+    
+    
+    <div id="contact-us">
+      <h1> Subscribe Today </h1>
+      <form id="form" action="https://help.rescue.org/donate?ms=gs_ppc_fy21_evergreen_dmusa_jun&initialms=gs_ppc_fy21_evergreen_dmusa_jun&msclkid=d359c715ec2e17366fb0a6c130e9676a&utm_source=bing&utm_medium=cpc&utm_campaign=FD%2BUSGS%2BFundraise1x%2BBrand%2BEXT&utm_term=help%20rescue%20org&utm_content=International%20Rescue%20Committee%20Core%20Terms">
+        <input type="email" id="email" name="email" placeholder="enter your email here..." required>
+        <input type="submit" id="submit" placeholder="Submit"></input>
+      </form>
+    </div>
+  
+  </main>
+  
+  <footer>
+    <ul>
+        <li class="nav-item text-center">
+
+            <a class=" btn btn-light text-primary" href="https://www.paypal.com/us/signin" target="_blank">Donate</a>
+
+          </li>
+      <li> Contact </li>
+      <li> Privacy </li>
+      <li> Feedback </li>
+      <li class="copy">&copy; Copyright 2022 Pjerind Zefi</li>
+    </ul>
+    
+</body>
+</html>

@@ -1,0 +1,143 @@
+html {
+    scroll-behavior: smooth;
+  }
+header {
+    position: fixed;
+    background-color: #c2b8b8;
+    color: black;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 1em;
+    width: 100%
+  }
+  
+  header::after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+  
+  #header-img {
+    width: 150px;
+    height: 80px;
+    float: left;
+    border-radius: 20px;
+  }
+  
+  nav ul{
+    float: right;
+    margin-right: 1em;
+  }
+  nav li{
+    display: inline;
+    padding-right: 2em;
+    display: inline-block;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:visited {
+    color: inherit;
+  }
+  
+  #about-us {
+    background-color: #444;
+    color: white;
+    Padding: 20em;
+    background-image: url(https://app.etapestry.com/onlineforms/HandsUpForHaiti/donationformimages/KidsHandsUptenthBig.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  main {
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #videos {
+    text-align: center;
+    padding: 3.5em;
+    }
+  
+  #video {
+    margin: 0 auto;
+  }
+  
+  img {
+    width: 20em;
+    height: 14em;
+    margin: 10px;
+  }
+  #photos {
+     background-color:#f2efea;
+     padding: 3em;
+  }
+  #photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  input{
+    height: 2em;
+    border: none;
+    transition: 0.1s;
+  }
+  input:hover {
+      border-bottom: 2px solid black;
+  }
+  #form {
+    text-align: center;
+    padding: 2em;
+  }
+  
+  #submit {
+    border-radius: 5px;
+    padding: 0.5em;
+    font-family: sans-serif;
+    background-color: #c4bbc2;
+    border: none;
+    color: white;
+  }
+  
+  html, body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  footer {
+    background-color: #c2b8b8;
+    padding: 2em;
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+  }
+  
+  footer ul {
+    list-style: none;
+  }
+  
+  footer li {
+    display: inline;
+    padding: 2em;
+  }
+  .copy{
+      padding-left: 28em;
+  }
+  
+  @media (max-width: 550px ){
+    h1 {
+      font-size: 1.25em;
+    }
+  }
